@@ -22,7 +22,7 @@ jobs:
         password: qtmlt1989
         logout: false
 
- - name: Use Skopeo Tools Sync Image to Docker Hub
+    - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.io/justsong/one-api:latest docker://registry.cn-hangzhou.aliyuncs.com/adinet/one-api:latest
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
