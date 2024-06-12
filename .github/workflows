@@ -1,4 +1,4 @@
-name: Sync-OneAPI-to-Aliyun
+name: Sync-OneAPI-to-Aliyun1
 
 on:
   push:
